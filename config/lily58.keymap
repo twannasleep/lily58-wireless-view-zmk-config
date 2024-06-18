@@ -52,5 +52,15 @@
                                &trans     &trans     &trans  &trans    &trans  &trans      &trans          &trans
             >;
         };
+
+        sym {
+            bindings = <
+&trans  &trans           &trans        &trans        &trans                &trans                                      &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp LEFT_BRACE        &kp RIGHT_BRACE                             &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp DOLLAR       &kp PERCENT   &kp CARET     &kp COLON             &kp PLUS                                    &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
+&trans  &kp AMPERSAND    &kp ASTERISK  &kp ASTERISK  &kp GRAVE             &kp PIPE               &trans       &trans  &trans  &trans     &trans     &trans    &trans    &trans
+                                       &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS    &trans  &trans  &trans     &trans
+            >;
+        };
     };
 };
