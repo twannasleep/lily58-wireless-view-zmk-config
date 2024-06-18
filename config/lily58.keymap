@@ -42,5 +42,15 @@
                                     &trans      &trans          &trans      &trans    &trans  &trans      &trans           &trans
             >;
         };
+
+        mouse {
+            bindings = <
+&trans     &trans    &trans    &trans     &trans     &trans                    &trans      &trans          &trans        &trans     &trans      &trans
+&kp TAB    &trans    &trans    &trans     &trans     &trans                    &kp K_REDO  &kp K_PASTE     &kp K_COPY    &kp K_CUT  &kp K_UNDO  &trans
+&kp LCTRL  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans                    &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans      &trans
+&kp LSHFT  &trans    &trans    &trans     &trans     &trans  &trans    &trans  &trans      &trans          &trans        &trans     &trans      &trans
+                               &trans     &trans     &trans  &trans    &trans  &trans      &trans          &trans
+            >;
+        };
     };
 };
