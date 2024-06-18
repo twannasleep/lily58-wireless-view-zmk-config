@@ -21,13 +21,13 @@
             >;
         };
 
-        Num {
+        Button {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans      &trans          &trans                        &trans      &trans           &trans      &trans         &trans         &trans
+&trans  &kp K_UNDO    &kp K_CUT     &kp K_COPY  &kp K_PASTE     &kp K_REDO                    &kp K_REDO  &kp K_PASTE      &kp K_COPY  &kp K_CUT      &kp K_UNDO     &kp DEL
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL   &kp LEFT_SHIFT  &trans                        &trans      &kp RIGHT_SHIFT  &kp RCTRL   &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
+&trans  &trans        &kp K_CUT     &kp K_COPY  &kp K_PASTE     &kp K_REDO  &trans    &trans  &kp K_REDO  &kp K_PASTE      &kp K_COPY  &kp K_CUT      &trans         &trans
+                                    &trans      &trans          &trans      &trans    &trans  &trans      &trans           &trans
             >;
         };
     };
