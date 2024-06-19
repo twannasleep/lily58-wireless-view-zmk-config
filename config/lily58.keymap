@@ -50,11 +50,11 @@
 
         sym_num {
             bindings = <
-&trans     &trans  &trans  &trans  &trans     &trans                     &trans                 &trans           &trans             &trans                &trans            &trans
-&kp GRAVE  &trans  &kp N1  &kp N2  &kp N3     &trans                     &kp SLASH              &kp ASTERISK     &kp PLUS           &mt UNDERSCORE MINUS  &kp EQUAL         &kp PIPE
-&trans     &trans  &kp N4  &kp N5  &kp N6     &trans                     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LESS_THAN         &kp GREATER_THAN  &kp NON_US_BACKSLASH
-&trans     &trans  &kp N7  &kp N8  &kp N9     &trans  &trans     &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp AMPERSAND         &kp SLASH         &kp RIGHT_SHIFT
-                           &trans  &kp COMMA  &kp N0  &kp DOT    &trans  &trans                 &trans           &trans
+&trans     &trans  &trans  &trans  &trans  &trans                         &trans                 &trans           &trans             &trans                &trans            &trans
+&kp GRAVE  &trans  &kp N1  &kp N2  &kp N3  &kp N0                         &kp SLASH              &kp ASTERISK     &kp PLUS           &mt UNDERSCORE MINUS  &kp EQUAL         &kp PIPE
+&trans     &trans  &kp N4  &kp N5  &kp N6  &kp PERIOD                     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LESS_THAN         &kp GREATER_THAN  &kp NON_US_BACKSLASH
+&trans     &trans  &kp N7  &kp N8  &kp N9  &kp COMMA   &trans     &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp AMPERSAND         &kp SLASH         &kp RIGHT_SHIFT
+                           &trans  &trans  &trans      &kp DOT    &trans  &trans                 &trans           &trans
             >;
         };
 
