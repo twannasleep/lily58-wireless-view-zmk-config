@@ -8,9 +8,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    tapping-term-ms = <500>;
-    quick-tap-ms = <200>;
-    flavor = "hold-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <125>;
+    flavor = "tap-preferred";
+    bindings = <&mo>, <&kp>;
 };
 
 / {
