@@ -30,10 +30,10 @@
 
         base {
             bindings = <
-&trans          &trans      &trans            &trans       &trans          &trans                                 &trans       &trans    &trans       &trans             &trans         &trans
-&kp ESC         &kp Q       &kp W             &kp E        &kp R           &kp T                                  &kp Y        &kp U     &mt RCTRL I  &mt RIGHT_SHIFT O  &kp P          &kp BSPC
-&kp TAB         &mt LCMD A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_ALT F  &kp G                                  &kp H        &kp J     &kp K        &kp L              &mt RCMD SEMI  &kp APOS
-&kp LEFT_SHIFT  &kp Z       &kp X             &kp C        &kp V           &kp B        &trans       &trans       &kp N        &kp M     &kp COMMA    &kp DOT            &kp SLASH      &mt RIGHT_SHIFT ENTER
+&trans          &trans      &trans            &trans       &trans          &trans                                 &trans       &trans    &trans             &trans       &trans         &trans
+&kp TAB         &kp Q       &kp W             &kp E        &kp R           &kp T                                  &kp Y        &kp U     &mt RIGHT_SHIFT I  &mt RCTRL O  &kp P          &kp BSPC
+&kp ESC         &mt LCMD A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_ALT F  &kp G                                  &kp H        &kp J     &kp K              &kp L        &mt RCMD SEMI  &kp APOS
+&kp LEFT_SHIFT  &kp Z       &kp X             &kp C        &kp V           &kp B        &trans       &trans       &kp N        &kp M     &kp COMMA          &kp DOT      &kp SLASH      &mt RIGHT_SHIFT ENTER
                                               &trans       &kp LCMD        &lt 2 LG(I)  &kp SPACE    &lt 1 ENTER  &lt 3 MINUS  &kp RCMD  &trans
             >;
         };
