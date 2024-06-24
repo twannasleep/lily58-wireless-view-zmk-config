@@ -8,8 +8,8 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    tapping-term-ms = <200>;
-    quick-tap-ms = <125>;
+    tapping-term-ms = <300>;
+    quick-tap-ms = <200>;
     flavor = "tap-preferred";
 };
 
@@ -50,10 +50,10 @@
 
         sym_num {
             bindings = <
-&trans     &trans  &trans  &trans  &trans  &trans                         &trans            &trans                 &trans           &trans                &trans                    &trans
-&kp GRAVE  &trans  &kp N1  &kp N2  &kp N3  &kp N0                         &kp EQUAL         &kp ASTERISK           &kp PLUS         &mt UNDERSCORE MINUS  &kp LC(LS(LG(NUMBER_4)))  &kp PIPE
-&trans     &trans  &kp N4  &kp N5  &kp N6  &kp PERIOD                     &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET      &kp LG(LS(NUMBER_4))      &kp NON_US_BACKSLASH
-&trans     &trans  &kp N7  &kp N8  &kp N9  &kp COMMA   &trans     &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &kp K_SCREENSAVER         &kp RIGHT_SHIFT
+&trans     &trans  &trans  &trans  &trans  &trans                         &trans            &trans                 &trans           &trans                &trans             &trans
+&kp GRAVE  &trans  &kp N1  &kp N2  &kp N3  &kp N0                         &kp EQUAL         &kp ASTERISK           &kp PLUS         &mt UNDERSCORE MINUS  &kp C_SNAPSHOT     &kp PIPE
+&trans     &trans  &kp N4  &kp N5  &kp N6  &kp PERIOD                     &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET      &kp PSCRN          &kp NON_US_BACKSLASH
+&trans     &trans  &kp N7  &kp N8  &kp N9  &kp COMMA   &trans     &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &kp K_SCREENSAVER  &kp RIGHT_SHIFT
                            &trans  &trans  &trans      &kp DOT    &trans  &trans            &trans                 &trans
             >;
         };
