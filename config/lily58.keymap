@@ -30,11 +30,11 @@
 
         base {
             bindings = <
-&trans          &trans      &trans            &trans       &trans          &trans                                 &trans         &trans    &trans             &trans       &trans         &trans
-&kp ESC         &kp Q       &kp W             &kp E        &kp R           &kp T                                  &kp Y          &kp U     &mt RIGHT_SHIFT I  &mt RCTRL O  &kp P          &kp MINUS
-&kp TAB         &mt LCMD A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_ALT F  &kp G                                  &kp H          &kp J     &kp K              &kp L        &mt RCMD SEMI  &kp APOS
-&kp LEFT_SHIFT  &lt 2 Z     &kp X             &kp C        &kp V           &kp B        &trans       &trans       &kp N          &kp M     &kp COMMA          &kp DOT      &lt 3 SLASH    &mt RIGHT_SHIFT ENTER
-                                              &trans       &kp LCMD        &lt 2 LG(I)  &kp SPACE    &lt 1 ENTER  &kp BACKSPACE  &kp RCMD  &trans
+&trans          &trans      &trans            &trans       &trans          &trans                                 &trans       &trans    &trans             &trans       &trans         &trans
+&kp ESC         &kp Q       &kp W             &kp E        &kp R           &kp T                                  &kp Y        &kp U     &mt RIGHT_SHIFT I  &mt RCTRL O  &kp P          &kp BACKSPACE
+&kp TAB         &mt LCMD A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_ALT F  &kp G                                  &kp H        &kp J     &kp K              &kp L        &mt RCMD SEMI  &kp APOS
+&kp LEFT_SHIFT  &lt 2 Z     &kp X             &kp C        &kp V           &kp B        &trans       &trans       &kp N        &kp M     &kp COMMA          &kp DOT      &lt 3 SLASH    &mt RIGHT_SHIFT ENTER
+                                              &trans       &kp LCMD        &lt 2 LG(I)  &kp SPACE    &lt 1 ENTER  &lt 1 MINUS  &kp RCMD  &trans
             >;
         };
 
