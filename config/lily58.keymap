@@ -30,11 +30,11 @@
 
         base {
             bindings = <
-&trans          &trans      &trans            &trans       &trans          &trans                                 &trans       &trans    &trans             &trans       &trans         &trans
-&kp ESC         &kp Q       &kp W             &kp E        &kp R           &kp T                                  &kp Y        &kp U     &mt RIGHT_SHIFT I  &mt RCTRL O  &kp P          &kp BSPC
-&kp TAB         &mt LCMD A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_ALT F  &kp G                                  &kp H        &kp J     &kp K              &kp L        &mt RCMD SEMI  &kp APOS
-&kp LEFT_SHIFT  &kp Z       &kp X             &kp C        &kp V           &kp B        &trans       &trans       &kp N        &kp M     &kp COMMA          &kp DOT      &kp SLASH      &mt RIGHT_SHIFT ENTER
-                                              &trans       &kp LCMD        &lt 2 LG(I)  &kp SPACE    &lt 1 ENTER  &lt 3 MINUS  &kp RCMD  &trans
+&trans          &trans      &trans            &trans       &trans          &trans                                 &trans         &trans    &trans             &trans       &trans         &trans
+&kp ESC         &kp Q       &kp W             &kp E        &kp R           &kp T                                  &kp Y          &kp U     &mt RIGHT_SHIFT I  &mt RCTRL O  &kp P          &kp MINUS
+&kp TAB         &mt LCMD A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_ALT F  &kp G                                  &kp H          &kp J     &kp K              &kp L        &mt RCMD SEMI  &kp APOS
+&kp LEFT_SHIFT  &lt 2 Z     &kp X             &kp C        &kp V           &kp B        &trans       &trans       &kp N          &kp M     &kp COMMA          &kp DOT      &lt 3 SLASH    &mt RIGHT_SHIFT ENTER
+                                              &trans       &kp LCMD        &lt 2 LG(I)  &kp SPACE    &lt 1 ENTER  &kp BACKSPACE  &kp RCMD  &trans
             >;
         };
 
@@ -50,11 +50,11 @@
 
         sym_num {
             bindings = <
-&trans     &trans  &trans  &trans  &trans  &trans                         &trans                 &trans           &trans             &trans                &trans            &trans
-&kp GRAVE  &trans  &kp N1  &kp N2  &kp N3  &kp N0                         &kp SLASH              &kp ASTERISK     &kp PLUS           &mt UNDERSCORE MINUS  &kp EQUAL         &kp PIPE
-&trans     &trans  &kp N4  &kp N5  &kp N6  &kp PERIOD                     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LESS_THAN         &kp GREATER_THAN  &kp NON_US_BACKSLASH
-&trans     &trans  &kp N7  &kp N8  &kp N9  &kp COMMA   &trans     &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp AMPERSAND         &kp SLASH         &kp RIGHT_SHIFT
-                           &trans  &trans  &trans      &kp DOT    &trans  &trans                 &trans           &trans
+&trans     &trans  &trans  &trans  &trans  &trans                         &trans            &trans                 &trans           &trans                &trans             &trans
+&kp GRAVE  &trans  &kp N1  &kp N2  &kp N3  &kp N0                         &kp EQUAL         &kp ASTERISK           &kp PLUS         &mt UNDERSCORE MINUS  &kp C_SNAPSHOT     &kp PIPE
+&trans     &trans  &kp N4  &kp N5  &kp N6  &kp PERIOD                     &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET      &kp PRINTSCREEN    &kp NON_US_BACKSLASH
+&trans     &trans  &kp N7  &kp N8  &kp N9  &kp COMMA   &trans     &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &kp K_SCREENSAVER  &kp RIGHT_SHIFT
+                           &trans  &trans  &trans      &kp DOT    &trans  &trans            &trans                 &trans
             >;
         };
 
