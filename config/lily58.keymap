@@ -28,43 +28,33 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base {
+        layer_0 {
             bindings = <
-&trans          &trans      &trans            &trans       &trans          &trans                                 &trans       &trans    &trans             &trans       &trans         &trans
-&kp ESC         &kp Q       &kp W             &kp E        &kp R           &kp T                                  &kp Y        &kp U     &mt RIGHT_SHIFT I  &mt RCTRL O  &kp P          &kp BACKSPACE
-&kp TAB         &mt LCMD A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_ALT F  &kp G                                  &kp H        &kp J     &kp K              &kp L        &mt RCMD SEMI  &kp APOS
-&kp LEFT_SHIFT  &lt 2 Z     &kp X             &kp C        &kp V           &kp B        &trans       &trans       &kp N        &kp M     &kp COMMA          &kp DOT      &lt 3 SLASH    &mt RIGHT_SHIFT ENTER
-                                              &trans       &kp LCMD        &lt 2 LG(I)  &kp SPACE    &lt 1 ENTER  &lt 1 MINUS  &kp RCMD  &trans
+&kp ESC    &kp N1  &kp N2  &kp N3     &kp N4    &kp N5                          &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp BSPC
+&kp TAB    &kp Q   &kp W   &kp F      &kp P     &kp B                           &kp J   &kp L     &kp U      &kp Y     &kp I      &kp MINUS
+&kp LSHFT  &kp A   &kp R   &kp S      &kp T     &kp G                           &kp M   &kp N     &kp E      &kp I     &kp O      &kp EQUAL
+&kp LBKT   &kp Z   &kp X   &kp C      &kp D     &kp V   &kp COMMA    &kp DOT    &kp K   &kp H     &kp APOS   &kp FSLH  &kp GRAVE  &kp RBKT
+                           &kp LCTRL  &kp LGUI  &trans  &kp SPACE    &kp ENTER  &trans  &kp LALT  &kp LSHFT
             >;
         };
 
-        nav_but {
+        layer_1 {
             bindings = <
-&trans  &trans      &trans          &trans        &trans       &trans                        &trans      &trans          &trans        &trans     &trans   &trans
-&trans  &mt F11 F1  &mt F12 F2      &kp F3        &kp F4       &kp F5                        &kp F6      &kp F7          &kp F8        &kp F9     &kp F10  &kp CAPS
-&trans  &kp LGUI    &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LCTRL    &trans                        &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans   &kp DELETE
-&trans  &kp K_UNDO  &kp K_CUT       &kp K_COPY    &kp K_PASTE  &kp K_REDO  &trans    &trans  &kp INSERT  &kp PAGE_DOWN   &kp PAGE_UP   &kp HOME   &kp END  &trans
-                                    &trans        &trans       &trans      &trans    &trans  &trans      &trans          &trans
+&kp LS(GRAVE)  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT              &kp CARET         &kp AMPERSAND          &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
+&kp CAPSLOCK   &kp F1           &kp F2       &kp F3    &kp F4      &kp                      &kp EQUAL         &kp PLUS               &kp MINUS        &kp ASTERISK          &kp SLASH              &kp UNDERSCORE
+&kp            &kp F5           &kp F6       &kp F7    &kp F8      &kp                      &kp GREATER_THAN  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET      &kp PIPE               &kp
+&kp            &kp F9           &kp F10      &kp F11   &kp F12     &kp          &kp    &kp  &kp LESS_THAN     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH   &kp
+                                             &kp       &kp         &kp          &kp    &kp  &kp               &kp                    &kp
             >;
         };
 
-        sym_num {
+        layer_2 {
             bindings = <
-&trans     &trans  &trans  &trans  &trans  &trans                         &trans            &trans                 &trans           &trans                &trans             &trans
-&kp GRAVE  &trans  &kp N1  &kp N2  &kp N3  &kp N0                         &kp EQUAL         &kp ASTERISK           &kp PLUS         &mt UNDERSCORE MINUS  &kp C_SNAPSHOT     &kp PIPE
-&trans     &trans  &kp N4  &kp N5  &kp N6  &kp PERIOD                     &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET      &kp PSCRN          &kp NON_US_BACKSLASH
-&trans     &trans  &kp N7  &kp N8  &kp N9  &kp COMMA   &trans     &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &kp K_SCREENSAVER  &kp RIGHT_SHIFT
-                           &trans  &trans  &trans      &kp DOT    &trans  &trans            &trans                 &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans           &trans        &trans                &trans                                   &trans     &trans               &trans              &trans     &trans             &trans
-&trans  &trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp RIGHT_PARENTHESIS                    &kp LC(H)  &kp LC(J)            &kp RC(K)           &kp RC(L)  &trans             &trans
-&trans  &trans  &kp DOLLAR       &kp PERCENT   &kp CARET             &trans                                   &kp LEFT   &kp DOWN             &kp UP              &kp RIGHT  &kp RS(SEMICOLON)  &kp RS(SQT)
-&trans  &trans  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &trans                 &trans    &trans  &kp RS(H)  &kp RS(RIGHT_BRACE)  &kp RS(LEFT_BRACE)  &kp RS(L)  &kp RS(SLASH)      &trans
-                                 &trans        &trans                &trans                 &trans    &trans  &trans     &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
