@@ -41,9 +41,9 @@
         layer_1 {
             bindings = <
 &kp LS(GRAVE)  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                          &kp CARET         &kp AMPERSAND          &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
-&kp CAPSLOCK   &kp F1           &kp F2       &kp F3    &kp F4      &trans                               &kp EQUAL         &kp PLUS               &kp MINUS        &kp ASTERISK          &kp SLASH              &kp UNDERSCORE
+&kp CAPSLOCK   &kp F1           &kp F2       &kp F3    &kp F4      &trans                               &kp EQUAL         &kp PLUS               &kp MINUS        &kp ASTERISK          &kp COLON              &kp UNDERSCORE
 &trans         &kp F5           &kp F6       &kp F7    &kp F8      &trans                               &kp GREATER_THAN  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET      &kp PIPE               &trans
-&trans         &kp F9           &kp F10      &kp F11   &kp F12     &trans       &kp MINUS    &kp EQUAL  &kp LESS_THAN     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH   &trans
+&trans         &kp F9           &kp F10      &kp F11   &kp F12     &trans       &kp MINUS    &kp EQUAL  &kp LESS_THAN     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &kp QUESTION           &trans
                                              &trans    &trans      &trans       &trans       &trans     &trans            &trans                 &trans
             >;
         };
