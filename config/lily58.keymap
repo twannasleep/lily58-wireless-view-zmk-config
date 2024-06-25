@@ -31,9 +31,9 @@
         layer_0 {
             bindings = <
 &kp GRAVE             &kp N1      &kp N2            &kp N3       &kp N4          &kp N5                             &kp N6           &kp N7          &kp N8             &kp N9       &kp N0         &kp BSPC
-&kp TAB               &kp Q       &kp W             &kp F        &kp P           &kp B                              &kp J            &kp L           &kp U              &kp Y        &kp SEMICOLON  &kp MINUS
+&kp TAB               &kp Q       &kp W             &kp F        &kp P           &kp B                              &kp K            &kp L           &kp U              &kp Y        &kp SEMICOLON  &kp MINUS
 &kp ESC               &mt LCMD A  &mt LEFT_SHIFT R  &mt LCTRL S  &mt LEFT_ALT T  &kp G                              &kp M            &kp N           &mt RIGHT_SHIFT E  &mt RCTRL I  &mt RCMD O     &kp SINGLE_QUOTE
-&mt LEFT_SHIFT EQUAL  &kp Z       &kp X             &kp C        &kp D           &kp V      &trans       &trans     &kp K            &kp H           &kp COMMA          &kp PERIOD   &kp SLASH      &mt RIGHT_SHIFT PIPE
+&mt LEFT_SHIFT EQUAL  &kp Z       &kp X             &kp C        &kp D           &kp V      &trans       &trans     &kp J            &kp H           &kp COMMA          &kp PERIOD   &kp SLASH      &mt RIGHT_SHIFT PIPE
                                                     &kp LCTRL    &kp LGUI        &lt 2 TAB  &kp SPACE    &kp ENTER  &lt 1 BACKSPACE  &mt LALT RG(I)  &kp LSHFT
             >;
         };
